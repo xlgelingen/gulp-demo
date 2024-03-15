@@ -1,0 +1,21 @@
+@green: #35b558;
+
+.global-title {
+  font-size: 14px;
+  color: @green;
+}
+
+.demo-section {
+  background-color: @green; 
+  transition: all .3s ease;
+  transform: translateX(50%);
+  .global-title{
+    color: #fff; 
+    &:hover{
+      font-size: 16px; 
+    }
+  }
+  .demo-list{
+    display: flex;
+  }
+}

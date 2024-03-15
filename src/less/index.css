@@ -1,0 +1,18 @@
+.global-title {
+  font-size: 14px;
+  color: #35b558;
+}
+.demo-section {
+  background-color: #35b558;
+  transition: all 0.3s ease;
+  transform: translateX(50%);
+}
+.demo-section .global-title {
+  color: #fff;
+}
+.demo-section .global-title:hover {
+  font-size: 16px;
+}
+.demo-section .demo-list {
+  display: flex;
+}
